@@ -9,7 +9,7 @@ require (
 	github.com/alexbrainman/sspi v0.0.0-20180613141037-e580b900e9f5
 	github.com/apcera/gssapi v0.0.0-00010101000000-000000000000
 	github.com/aws/aws-sdk-go v1.17.7
-	github.com/blang/semver v3.5.0+incompatible
+	github.com/blang/semver v3.5.1+incompatible
 	github.com/containerd/continuity v0.0.0-20191127005431-f65d91d395eb // indirect
 	github.com/containers/image v0.0.0-00010101000000-000000000000
 	github.com/containers/storage v0.0.0-20190726081758-912de200380a // indirect
@@ -31,13 +31,13 @@ require (
 	github.com/gonum/stat v0.0.0-20181125101827-41a0da705a5b // indirect
 	github.com/mitchellh/go-wordwrap v1.0.0
 	github.com/moby/buildkit v0.0.0-20181107081847-c3a857e3fca0
-	github.com/mtrmac/gpgme v0.0.0-20170102180018-b2432428689c // indirect
+	github.com/mtrmac/gpgme v0.1.2 // indirect
 	github.com/opencontainers/go-digest v1.0.0-rc1
 	github.com/openshift/api v0.0.0-20200205133042-34f0ec8dab87
-	github.com/openshift/build-machinery-go v0.0.0-20200210090402-3b072832771e
+	github.com/openshift/build-machinery-go v0.0.0-20200211121458-5e3d6e570160
 	github.com/openshift/client-go v0.0.0-20200116152001-92a2713fa240
 	github.com/openshift/library-go v0.0.0-20200206134157-b4c763d94dcf
-	github.com/operator-framework/operator-registry v1.5.4
+	github.com/operator-framework/operator-registry v1.5.11
 	github.com/pkg/errors v0.8.1
 	github.com/prometheus/client_golang v1.1.0
 	github.com/russross/blackfriday v1.5.2
@@ -55,7 +55,7 @@ require (
 	k8s.io/apimachinery v0.17.1
 	k8s.io/apiserver v0.17.1
 	k8s.io/cli-runtime v0.17.0
-	k8s.io/client-go v0.17.1
+	k8s.io/client-go v8.0.0+incompatible
 	k8s.io/component-base v0.17.1
 	k8s.io/klog v1.0.0
 	k8s.io/kubectl v0.0.0
@@ -84,7 +84,7 @@ replace (
 	k8s.io/kube-controller-manager => k8s.io/kube-controller-manager v0.17.1
 	k8s.io/kube-proxy => k8s.io/kube-proxy v0.17.1
 	k8s.io/kube-scheduler => k8s.io/kube-scheduler v0.17.1
-	k8s.io/kubectl => github.com/openshift/kubernetes-kubectl v0.0.0-20200205113031-40549974a002
+	k8s.io/kubectl => github.com/openshift/kubernetes-kubectl v0.0.0-20200514121803-1a063728c98c
 	k8s.io/kubelet => k8s.io/kubelet v0.17.1
 	k8s.io/kubernetes => github.com/openshift/kubernetes v1.17.0-alpha.0.0.20191216151305-079984b0a154
 	k8s.io/legacy-cloud-providers => k8s.io/legacy-cloud-providers v0.17.1
